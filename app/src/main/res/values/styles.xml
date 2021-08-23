@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Title text-->
+    <style name="TitleText" >
+        <item name="android:textSize">@dimen/title_text</item>
+        <item name="android:layout_marginTop">@dimen/top_vertical_margin</item>
+        <item name="layout_constraintVertical_bias">0.0</item>
+    </style>
+
+    <!--Button-->
+    <style name="Button" >
+        <item name="android:backgroundTint">@android:color/holo_blue_light</item>
+        <item name="cornerRadius">@dimen/btn_radius</item>
+    </style>
+
+    <!--Text Input Layout-->
+    <style name="TIL" >
+        <item name="android:textColorHint">@color/black</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Drop_Down_TIL" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu" >
+        <item name="android:textColorHint">@color/black</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <!--FAB-->
+    <style name="FAB" >
+        <item name="android:layout_marginEnd">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="Add_FAB" parent="FAB" >
+        <item name="android:src">@drawable/ic_baseline_add_white</item>
+    </style>
+
+    <style name="Forward_FAB" parent="FAB" >
+        <item name="android:src">@drawable/ic_baseline_arrow_forward_white</item>
+    </style>
+</resources>
